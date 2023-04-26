@@ -21,7 +21,7 @@
             <div class="box">
                 <div class="right-side">
                     <div class="box-topic">Total Order</div>
-                    <div class="number">40,876</div>
+                    <div class="number"></div>
                     <div class="indicator">
                         <i class='bx bx-up-arrow-alt'></i>
                         <span class="text">Up from yesterday</span>

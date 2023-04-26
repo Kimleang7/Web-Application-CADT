@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 @include('partails.Admin_link')
 
-
+@section('title','Menu')
 <body>
 @include('partails.Adminsidebar');
 <section class="home-section">

@@ -35,6 +35,9 @@
         label{
             color: #1a202c;
         }
+        input{
+            color:#1a202c
+        }
 
     </style>
 
@@ -75,7 +78,7 @@
 
         @foreach($data2 as $data2)
             <tr>
-                <td>{{$data2->id}}</td>
+                <td>{{$data2->id-32}}</td>
                 <td ><a id="remove" class="fa-solid fa-trash" href="{{url('/deleteCart',$data2->id)}}"></a></td>
                 <td></td>
                 <td></td>
@@ -93,7 +96,7 @@
         </div>
         <div class="input">
             <label>Phone Number</label>
-            <input type="number" name="phone" placeholder="Your Number" required>
+            <input type="text" name="phone" placeholder="Your Number" required>
         </div>
         <div class="input">
             <label>Address</label>

@@ -5,6 +5,10 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Admin | @yield('title')</title>
+    <link rel="icon" href="images/food-logo.png">
 </head>
 <style>
     /*.inputBox {*/
